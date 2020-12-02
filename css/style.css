@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://c.pxhere.com/photos/b3/ef/citrus_food_fresh_fruit_green_half_isolated_juice-1159540.jpg!d);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Pacifico, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.replay {
+    background-color:rgba(37, 100, 80 , 0.5);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    height: fit-content;
+    padding: 3em 1em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.678);
+   font-size: 2em;
+   border-radius: 50%;
+}
+.replay:hover {
+    background-color:rgba(37, 100, 80 , 0.7);
+}
+.replay:active {
+    box-shadow: none;
+}
